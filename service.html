@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 15px 20px;
+        }
+        header h2 {
+            margin: 0;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 15px;
+            padding: 0;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .container {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .service-box {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .service-box h3 {
+            margin-top: 0;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h2>MySite</h2>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="service.html">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="container">
+    <h1>Our Services</h1>
+    <p>We offer high-quality services to meet your needs.</p>
+
+    <div class="services">
+        <div class="service-box">
+            <h3>Web Development</h3>
+            <p>We build responsive and modern websites tailored to your business.</p>
+        </div>
+
+        <div class="service-box">
+            <h3>Graphic Design</h3>
+            <p>Creative designs for branding, logos, and marketing materials.</p>
+        </div>
+
+        <div class="service-box">
+            <h3>SEO Optimization</h3>
+            <p>Improve your website ranking and visibility on search engines.</p>
+        </div>
+
+        <div class="service-box">
+            <h3>Digital Marketing</h3>
+            <p>Grow your business with effective online marketing strategies.</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 My Website | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
